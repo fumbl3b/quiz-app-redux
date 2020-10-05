@@ -1,0 +1,112 @@
+
+body {
+  background-color: rgb(44, 44, 44);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main {
+  margin: 50px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: cornsilk;
+  background-color: rgb(21, 28, 53);
+  border-radius: 5px;
+  padding: 20px;
+  color: cornsilk;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(21, 28, 53);
+  margin-bottom: 20px;
+  color: cornsilk;
+}
+
+button {
+  background-color: dodgerblue;
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  color: cornsilk;
+  font-weight: bold;
+}
+
+button:focus {
+  display: flex;
+  flex-direction: column;
+  background-color: green;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+label {
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.radio-container {
+  min-width: 100%;
+  margin: 20px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.submit-ans {
+  display: flex;
+  justify-content: center;
+
+}
+
+h1 {
+  margin: 20px;
+  text-align: center;
+}
+
+.text-container {
+  display: flex;
+  justify-content: center;
+}
+
+.end-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.score {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  button:hover {
+    background-color: darkblue;
+  }
+
+  main {
+    margin: 100px 300px;
+  }
+}
+
+input[type="radio"]:checked + label{
+  background-color: #58ba83;
+}
+
+
+label {
+  justify-content: center;
+  text-align: center;
+  background-color: #454545;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
